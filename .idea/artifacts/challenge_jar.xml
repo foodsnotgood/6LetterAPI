@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="challenge:jar">
+    <output-path>$PROJECT_DIR$/../uitdaginkje</output-path>
+    <root id="archive" name="challenge.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../uitdaginkje/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="challenge" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/info/picocli/picocli/4.6.2/picocli-4.6.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
