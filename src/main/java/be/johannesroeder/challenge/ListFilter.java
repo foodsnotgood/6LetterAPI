@@ -5,7 +5,6 @@ import java.util.Iterator;
 import java.util.List;
 
 public class ListFilter {
-
     private List<String> sixLetterWords;
     private List<String> nonSixLetterWords;
 
@@ -14,13 +13,13 @@ public class ListFilter {
         this.sixLetterWords = new ArrayList<>();
     }
 
-    public void setLists(List<String> listToFilter){
+    public void setLists(List<String> listToFilter) {
         Iterator<String> it = listToFilter.iterator();
-        while(it.hasNext()){
+        while (it.hasNext()) {
             String nextLine = it.next();
             if (nextLine.length() == 6) {
                 this.sixLetterWords.add(nextLine);
-            } else if(nextLine.length() < 6){
+            } else if (nextLine.length() < 6) {
                 this.nonSixLetterWords.add(nextLine);
             }
         }

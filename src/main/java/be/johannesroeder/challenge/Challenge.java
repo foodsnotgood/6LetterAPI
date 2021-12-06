@@ -11,7 +11,6 @@ import java.util.HashSet;
 public class Challenge implements Runnable {
 
     private ListFilter listFilter;
-
     @CommandLine.Option(names = {"-i", "-input"}, required = true)
     private String input;
     @CommandLine.Option(names = {"-o", "-output"}, required = true)
